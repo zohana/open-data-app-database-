@@ -1,36 +1,54 @@
 <?php
 
 require_once 'includes/db.php';
-//var_dump($db);
 
-//->exec() allows us to perform SQL and not expect results
-//->query()allows us to perform SQL and expect results
-$results = $db->query('SELECT id,name,longitude,latitude
-                       FROM museums 
-					   ORDER BY name ASC'
-					  );
+$results = $db->query('
+	SELECT id, name, adr, latitude, longitude, rate_count, rate_total
+	FROM museums
+	ORDER BY name ASC
+');
+
+include 'includes/theme-top.php';
 
 ?>
 
+<button id="geo">Find Me</button>
+<form id="geo-form">
+	<label for="adr">Address</label>
+	<input id="adr">
+</form>
 
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Ottawa Museums</title>
-</head>
-<body>
-	<h1>Ottawa Museums</h1>
-	
-	<a href="admin/index.php">Admin Login</a>
-	
-	<ul>
-		<?php foreach ($results as $museums) : ?>
-				<li>
-        	<a href="single.php?id=<?php echo $museums['id']; ?>"><?php echo $museums['name']; ?></a>
-        </li>
-		<?php endforeach; ?>
-	</ul>
-    
-</body>
-</html>
+<ol class="museums">
+<?php foreach ($results as $museums) : ?>
+	<?php
+		if ($museums['rate_count'] > 0) {
+			$rating = round($museums['rate_total'] / $museums['rate_count']);
+		} else {
+			$rating = 0;
+		}
+	?>
+	<li itemscope itemtype="http://schema.org/TouristAttraction" data-id="<?php echo $museums['id']; ?>">
+		<strong class="distance"></strong>
+		<a href="single.php?id=<?php echo $museums['id']; ?>" itemprop="name"><?php echo $museums['name']; ?></a>
+		<span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+			<meta itemprop="latitude" content="<?php echo $museums['latitude']; ?>">
+			<meta itemprop="longitude" content="<?php echo $museums['longitude']; ?>">
+		</span>
+		<meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter>
+		<ol class="rater">
+		<?php for ($i = 1; $i <= 5; $i++) : ?>
+			<?php $class = ($i <= $rating) ? 'is-rated' : ''; ?>
+			<li class="rater-level <?php echo $class; ?>">★</li>
+		<?php endfor; ?>
+		</ol>
+	</li>
+<?php endforeach; ?>
+</ol>
+
+<div id="map"></div>
+
+<?php
+
+include 'includes/theme-bottom.php';
+
+?>
