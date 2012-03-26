@@ -1,6 +1,12 @@
 <?php
 
 require_once '../includes/db.php';
+require_once '../includes/users.php';
+
+if(!user_is_signed_in()){
+	header('Location: sign-in.php');
+	exit;
+}
 //var_dump($db);
 
 //->exec() allows us to perform SQL and not expect results
@@ -21,7 +27,7 @@ $results = $db->query('SELECT id,name,longitude,latitude
 </head>
 <body>
 
-
+<a href = "sign-out.php">Sign Out</a>
   <ul>
      <?php 
       /*foreach ($results as $dino) {

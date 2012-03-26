@@ -12,13 +12,15 @@ include 'includes/theme-top.php';
 
 ?>
 
-<button id="geo">Find Me</button>
+<button id="geo">search</button>
 <form id="geo-form">
 	<label for="adr">Address</label>
 	<input id="adr">
 </form>
 
-<ol class="museums">
+
+<ul class="museums">
+
 <?php foreach ($results as $museums) : ?>
 	<?php
 		if ($museums['rate_count'] > 0) {
@@ -28,13 +30,13 @@ include 'includes/theme-top.php';
 		}
 	?>
 	<li itemscope itemtype="http://schema.org/TouristAttraction" data-id="<?php echo $museums['id']; ?>">
-		<strong class="distance"></strong>
+		<strong class="distance">
 		<a href="single.php?id=<?php echo $museums['id']; ?>" itemprop="name"><?php echo $museums['name']; ?></a>
 		<span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
 			<meta itemprop="latitude" content="<?php echo $museums['latitude']; ?>">
 			<meta itemprop="longitude" content="<?php echo $museums['longitude']; ?>">
-		</span>
-		<meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter>
+		</span></strong>
+		<?php /*?><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter><?php */?>
 		<ol class="rater">
 		<?php for ($i = 1; $i <= 5; $i++) : ?>
 			<?php $class = ($i <= $rating) ? 'is-rated' : ''; ?>
@@ -43,7 +45,9 @@ include 'includes/theme-top.php';
 		</ol>
 	</li>
 <?php endforeach; ?>
-</ol>
+</ul>
+
+
 
 <div id="map"></div>
 

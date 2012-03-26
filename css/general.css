@@ -8,13 +8,14 @@ html{
 }
 
 body{
-background-color:#FFF;
+background-image:url(../images/background.png);
+ background-repeat: no-repeat;
 
-width:1050px;
+width:1000px;
 height:800px;
 
-margin:2em auto;
-padding:1%;
+margin:6em auto;
+/*padding:1%;*/
 
 -webkit-border-radius: 15px;
 -moz-border-radius: 15px;
@@ -25,18 +26,24 @@ border-radius: 15px;
 box-shadow: 0px 0px 5px 5px #F90;
 
 }
+head{
+   background-image:url(../images/building.png);	
+}
 
+.museums {
 
-
+		
+}
 
 #map {
-	/*float:right;*/
+	float:right;
 	bottom: 0px;
+	float:right;
 	position: absolute;
-	margin: 150px 10px 0 400px;
+	margin: 430px 0px 0px 20px;
 	top: 30px;
-	width: 25%;
-	height:50%;
+	width: 530px;
+	height:430px;
 	box-shadow: 0px 0px 5px 5px #999;
 	
 }
@@ -46,4 +53,125 @@ h1{
 	font-size:36px;
 	color:#039;
 	text-align:center;
+}
+
+.museums{
+	float:right;
+	/*background-color:#fff;*/
+	margin: 300px 50px 0 0;
+	height:430px;
+	width:360px;
+	box-shadow: 0px 0px 5px 5px #999;
+	
+	overflow-y:scroll;
+	
+	list-style-type: none;
+	padding: 10px;
+}
+
+
+.distance a{
+	color:#F90;
+	text-decoration:none;
+}
+
+
+.museums li {
+	cursor: pointer;
+}
+
+
+/*.museums a, .museums a:link, .museums a:visited {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    color: #38452E;
+    display: inline;
+    margin: 0;
+    overflow: hidden;
+   padding: 0.4em .8em 0.4em 4.8em;
+   text-decoration: none;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}*/
+
+ .museums li:hover{
+	background-color: #0C9;
+	font-color:#000;
+	
+	
+}
+
+.museums a,
+.museums a:link,{
+    	color: #C06; 
+}
+
+/*.museums a:visited {
+	color:#CF3; 
+	text-decoration: none;*/
+	
+}
+
+.museums li meter {
+	display: inline-block;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	width: 0;
+
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.rater {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	/*vertical-align: middle;*/
+
+	list-style-type: none;
+	line-height: 1;
+}
+
+.rater-level {
+	float: left;
+    /*background-color:#FFF;*/
+	color: #efecd2;
+}
+
+.rater-level a,
+.rater-level a:link,
+.rater-level a:visited {
+	color: #efecd2;
+	/*color:#3F0;*/
+	text-decoration: none
+}
+
+.rater-level a:hover,
+.rater-level a:focus,
+.rater-level a:active,
+.is-rated,
+.is-rated a,
+.is-rated a:link,
+.is-rated a:visited,
+.is-rated a:hover,
+.is-rated a:focus,
+.is-rated a:active,
+.is-rated-hover a,
+.is-rated-hover a:link,
+.is-rated-hover a:visited {
+	color: #ffe91f;
+}
+
+/*.info-window strong {
+	display: block;
+}
+*/
+
+.museums li meter {
+    display: inline;
+    display: inline;
+    height: 0;
+    margin: 0;
+    padding: 1em;
+    width: 0;
 }
