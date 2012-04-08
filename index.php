@@ -18,7 +18,9 @@ include 'includes/theme-top.php';
 	<input id="adr">
 </form>
 
-
+<div class="image">
+  <img src="images/building.png" />
+</div>
 <ul class="museums">
 
 <?php foreach ($results as $museums) : ?>
