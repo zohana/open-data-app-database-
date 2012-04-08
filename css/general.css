@@ -101,14 +101,14 @@ h1{
 }*/
 
  .museums li:hover{
-	background-color: #0C9;
-	font-color:#000;
+	background-color: #FFF;
+	
 }
 
 .museums a,
 .museums a:link,{
     	color: #006;
-		line-height:10;
+		line-height:50;
 		
 }
 
