@@ -27,8 +27,9 @@ box-shadow: 0px 0px 5px 5px #F90;
 
 }
 
-.image{
-	margin-bottom: 30px;	
+figure{
+	margin:0;
+	padding:0;
 }
 
 .museums {
