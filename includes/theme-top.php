@@ -8,4 +8,8 @@
 	<script src="js/modernizr.dev.js"></script>
 </head>
 <body>
-<header>Ottawa Museums</header>
+<header>Ottawa Museums
+<figure>
+	<img src="../images/building.png">
+</figure>
+</header>
