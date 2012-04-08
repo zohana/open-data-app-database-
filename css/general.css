@@ -76,7 +76,7 @@ h1{
 }
 
 
-.distance li{
+.distance a{
 	color:#F90;
 	text-decoration:none;
 }
@@ -115,7 +115,7 @@ h1{
 	color:#CF3; 
 	text-decoration: none;*/
 	
-}
+
 
 .museums li meter {
 	display: inline-block;
