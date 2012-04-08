@@ -28,7 +28,7 @@ box-shadow: 0px 0px 5px 5px #F90;
 }
 
 figure{
-	margin-top:-10px ;
+	margin:0 ;
 	padding:0;
 }
 
@@ -57,6 +57,7 @@ h1{
 	width:40%;
 	margin:0;
 	padding:0;
+	text-align:center;
 	
 }
 
