@@ -1,6 +1,4 @@
-<!--<figure>
-  <img src="images/building.png" />
-</figure>-->
+
 <?php
 
 require_once 'includes/db.php';
