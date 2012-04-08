@@ -5,11 +5,10 @@ html{
  margin:0;
  padding:20px;	
  background:#000;
- background-image:url(../images/background.png);
 }
 
 body{
-
+background-image:url(../images/background.png);
  background-repeat: no-repeat;
 
 width:1000px;
