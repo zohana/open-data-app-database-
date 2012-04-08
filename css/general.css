@@ -76,7 +76,7 @@ h1{
 }
 
 
-.distance a{
+.distance li{
 	color:#F90;
 	text-decoration:none;
 }
@@ -108,7 +108,7 @@ h1{
 .museums a,
 .museums a:link,{
     	color: #C06;
-		padding:10px; 
+		
 }
 
 /*.museums a:visited {
