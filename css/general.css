@@ -54,7 +54,7 @@ h1{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:36px;
 	color:#039;
-	text-align:center;
+	float:left;
 }
 
 .museums{
