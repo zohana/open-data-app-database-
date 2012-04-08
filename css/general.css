@@ -84,7 +84,7 @@ h1{
 
 .museums li {
 	cursor: pointer;
-	margin:10px;
+	
 }
 
 
@@ -107,7 +107,8 @@ h1{
 
 .museums a,
 .museums a:link,{
-    	color: #C06; 
+    	color: #C06;
+		padding:10px; 
 }
 
 /*.museums a:visited {
