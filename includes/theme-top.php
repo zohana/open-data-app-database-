@@ -8,7 +8,7 @@
 	<script src="js/modernizr.dev.js"></script>
 </head>
 <body>
-<header><h1>Ottawa Museums</h1>
+<header>Ottawa Museums
 <figure>
 	<img src="../images/building.png">
 </figure>
