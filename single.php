@@ -50,7 +50,7 @@ include 'includes/theme-top.php';
 	<dt><strong>Longitude:</strong></dt><dd><?php echo $museums['longitude']; ?></dd>
 	<dt><strong>Latitude:</strong></dt><dd><?php echo $museums['latitude']; ?></dd>
 </dl>
-
+</div>
 <?php if (isset($cookie[$id])) : ?>
 <div class="ra">
 <h2>Your rating</h2>
@@ -69,7 +69,7 @@ include 'includes/theme-top.php';
 	<li class="rater-level"><a href="rate.php?id=<?php echo $museums['id']; ?>&rate=<?php echo $i; ?>">★</a></li>
 	<?php endfor; ?>
 </ol>
-</div>
+
 </div>
 <?php endif; ?>
 
