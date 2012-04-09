@@ -52,7 +52,7 @@ include 'includes/theme-top.php';
 </dl>
 
 <?php if (isset($cookie[$id])) : ?>
-
+<div class="ra">
 <h2>Your rating</h2>
 <ol class="rater rater-usable">
 	<?php for ($i = 1; $i <= 5; $i++) : ?>
@@ -69,6 +69,7 @@ include 'includes/theme-top.php';
 	<li class="rater-level"><a href="rate.php?id=<?php echo $museums['id']; ?>&rate=<?php echo $i; ?>">★</a></li>
 	<?php endfor; ?>
 </ol>
+</div>
 </div>
 <?php endif; ?>
 
