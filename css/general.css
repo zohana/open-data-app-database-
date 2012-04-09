@@ -225,6 +225,7 @@ h2{
 	font:#fff;
 }
  dt{
+ float:left;
  width:25%;
  text-decoration:underline;	
  
@@ -232,12 +233,13 @@ h2{
 
 dd{
  width:39%;	
+ float:left;
 }
 
 rater rater-usable{
 	margin:10px 0 0 200px;
 }
- dl{
-	width:
-}
+ .adress{
+	 float:left;
+ }
 
