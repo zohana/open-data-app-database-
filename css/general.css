@@ -193,3 +193,13 @@ h1{
     padding: 1em;
     width: 0;
 }
+
+h2{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:26px;
+	color:#039;
+	width:70%;
+	margin:0;
+	padding:0;
+	text-align:center;
+}

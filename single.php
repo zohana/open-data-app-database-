@@ -39,7 +39,7 @@ include 'includes/theme-top.php';
 
 ?>
 
-<h1><?php echo $museums['name']; ?></h1>
+<h2><?php echo $museums['name']; ?></h2>
 
 <dl>
 	<dt>Average Rating</dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter></dd>
