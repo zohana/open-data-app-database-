@@ -86,6 +86,7 @@ h1{
 
 .museums li {
 	cursor: pointer;
+	background-color: rgba(0,153,204,0.3);
 	
 }
 
@@ -109,7 +110,7 @@ h1{
 }*/
 
  .museums li:hover{
-	background-color:#CCC;
+	background-color:rgba(153,153,153,.4);;
 	
 }
 
