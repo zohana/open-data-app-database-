@@ -86,7 +86,7 @@ h1{
 .museums li {
 	cursor: pointer;
 	
-	
+	background-color: rgba(153,102,153,.3);
 }
 
 .box{
@@ -96,7 +96,7 @@ h1{
 }
 
 .box li{
-   background-color: rgba(153,102,153,.3);	
+   	
 }
 
 
