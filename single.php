@@ -44,7 +44,7 @@ include 'includes/theme-top.php';
 
 <dl>
     
-	<dt class="a1"><strong>Average Rating:</strong></dt><dd class="a1"><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter>
+	<dt><strong>Average Rating:</strong></dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter>
     </dd>
 	<dt class="address"><strong>Address:</strong></dt><dd><?php echo $museums['adr']; ?></dd>
 	<dt><strong>Longitude:</strong></dt><dd><?php echo $museums['longitude']; ?></dd>

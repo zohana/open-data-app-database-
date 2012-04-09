@@ -222,34 +222,28 @@ h2{
 	box-shadow: 0px 0px 5px 5px #999;
 	-webkit-box-shadow: 0px 0px 5px 5px #999;
 	-moz-box-shadow: 0px 0px 5px 5px #999;
-	font:#fff;
+	
 }
 dl{
 	display:inline;
 	width:100%;	
-	apdding-top:10px;
-	
+	padding-top:10px;
+	font:#fff;
 }
  dt{
  float:left;
  width:50%;
  text-decoration:underline;	
-
+ 
  padding:0;
  }
  
-.a1 dt{
-	margin-top:10px;	
-}
 
-.a1 dd{
-	margin-top:10px;	
-}
 
 dd{
  width:50%;	
  float:left;
- margin:0;
+ margin:10px 0 10px 0;
  padding:0;
 }
 
