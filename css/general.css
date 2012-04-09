@@ -224,20 +224,20 @@ h2{
 	-moz-box-shadow: 0px 0px 5px 5px #999;
 	font:#fff;
 }
-.tab dt{
- display: table;
+ dt{
+
  text-decoration:underline;	
- display:block;
+ 
 }
 
 dd{
-	display:table-cell;
+	
 }
 
 rater rater-usable{
 	margin:10px 0 0 200px;
 }
  dl{
-	display:table;
+	
 }
 
