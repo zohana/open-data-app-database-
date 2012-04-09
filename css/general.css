@@ -225,8 +225,12 @@ h2{
 	font:#fff;
 }
 dt{
- 
+ display:tabel;
  text-decoration:underline;	
+}
+
+dd{
+	display:tabel;
 }
 
 rater rater-usable{
