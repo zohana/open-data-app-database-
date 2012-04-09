@@ -12,13 +12,13 @@ $results = $db->query('
 include 'includes/theme-top.php';
 
 ?>
-
+<div class="top">
 <button id="geo">search</button>
 <form id="geo-form">
 	<label for="adr">Address</label>
 	<input id="adr">
 </form>
-
+</div>
 
 <ul class="museums">
 
