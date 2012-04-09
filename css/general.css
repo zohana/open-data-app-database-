@@ -110,7 +110,7 @@ h1{
 }*/
 
  .museums li:hover{
-	background-color:#fff;
+	background-color:rgba(0,51,255,.3);
 	
 }
 
