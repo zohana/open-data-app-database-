@@ -259,5 +259,6 @@ meter {
 }
 
 .rater rater-usable{
-	margin-top:70px;
+	padding:0;
+	margin:0;
 }
