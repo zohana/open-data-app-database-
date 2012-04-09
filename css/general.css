@@ -92,6 +92,10 @@ h1{
 	
 }
 
+.museums li:nth-child(even) {
+	background-color:#FF6;	
+}
+
 .box{
     margin:0;
 	padding:10px 0 10px 0;
