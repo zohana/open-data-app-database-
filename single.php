@@ -45,7 +45,7 @@ include 'includes/theme-top.php';
 	<dt><strong>Average Rating:</strong></dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter></dd>
 	<dt><strong>Address:</strong></dt><dd><?php echo $museums['adr']; ?></dd>
 	<dt><strong>Longitude:</strong></dt><dd><?php echo $museums['longitude']; ?></dd>
-	<dt>Latitude</dt><dd><?php echo $museums['latitude']; ?></dd>
+	<dt><strong>Latitude:</strong></dt><dd><?php echo $museums['latitude']; ?></dd>
 </dl>
 
 <?php if (isset($cookie[$id])) : ?>
