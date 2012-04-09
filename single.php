@@ -40,8 +40,8 @@ include 'includes/theme-top.php';
 ?>
 
 <h2><?php echo $museums['name']; ?></h2>
-
-<dl class="ratedeco">
+<div class="ratedeco">
+<dl>
 	<dt>Average Rating</dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter></dd>
 	<dt>Address</dt><dd><?php echo $museums['adr']; ?></dd>
 	<dt>Longitude</dt><dd><?php echo $museums['longitude']; ?></dd>
@@ -66,7 +66,7 @@ include 'includes/theme-top.php';
 	<li class="rater-level"><a href="rate.php?id=<?php echo $museums['id']; ?>&rate=<?php echo $i; ?>">★</a></li>
 	<?php endfor; ?>
 </ol>
-
+</div>
 <?php endif; ?>
 
 <?php
