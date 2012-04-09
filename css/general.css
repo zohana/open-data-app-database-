@@ -83,9 +83,6 @@ h1{
 	
 }
 
-.distance .rater-level li{
-background-color:none;
-}
 
 .museums li {
 	cursor: pointer;
@@ -163,6 +160,10 @@ background-color:none;
 	color: #efecd2;
 	/*color:#3F0;*/
 	text-decoration: none
+}
+
+.rater-level li{
+ background:transparent;	
 }
 
 .rater-level a:hover,
