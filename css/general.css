@@ -227,6 +227,7 @@ h2{
 .tab dt{
  display: table;
  text-decoration:underline;	
+ display:block;
 }
 
 dd{
