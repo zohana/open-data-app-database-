@@ -232,6 +232,8 @@ dl{
  float:left;
  width:50%;
  text-decoration:underline;	
+ margin:0;
+ padding:0;
  
 }
 
@@ -246,3 +248,7 @@ dd{
 	 width:100%;
  }
 
+meter {
+	padding:0;
+	margin:0;
+}
