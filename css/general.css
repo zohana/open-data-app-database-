@@ -85,6 +85,7 @@ h1{
 
 .museums li {
 	cursor: pointer;
+	line-height:3;
 	
 }
 
