@@ -41,7 +41,7 @@ include 'includes/theme-top.php';
 
 <h2><?php echo $museums['name']; ?></h2>
 <div class="ratedeco">
-
+<table>
 <dl>
 	<dt><strong>Average Rating:</strong></dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter>
     </dd>
@@ -49,7 +49,7 @@ include 'includes/theme-top.php';
 	<dt><strong>Longitude:</strong></dt><dd><?php echo $museums['longitude']; ?></dd>
 	<dt><strong>Latitude:</strong></dt><dd><?php echo $museums['latitude']; ?></dd>
 </dl>
-
+</table>
 <?php if (isset($cookie[$id])) : ?>
 
 <h2>Your rating</h2>
