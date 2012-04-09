@@ -41,7 +41,7 @@ include 'includes/theme-top.php';
 
 <h2><?php echo $museums['name']; ?></h2>
 
-<dl>
+<dl class="ratedeco">
 	<dt>Average Rating</dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter></dd>
 	<dt>Address</dt><dd><?php echo $museums['adr']; ?></dd>
 	<dt>Longitude</dt><dd><?php echo $museums['longitude']; ?></dd>

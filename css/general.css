@@ -193,7 +193,7 @@ h1{
     padding: 1em;
     width: 0;
 }
-
+/*----------------single.php---------------------*/
 h2{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:26px;
@@ -202,4 +202,11 @@ h2{
 	margin:0;
 	padding:0;
 	text-align:center;
+	text-decoration:underline;
+}
+
+.ratedeco{
+	margin:10px 0 0 50px;
+	padding:10px;
+	
 }
