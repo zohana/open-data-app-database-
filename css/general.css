@@ -92,7 +92,7 @@ h1{
 	
 }
 
-.museums li:nth-child(even) {
+.museums > li {
 	background-color:#FF6;	
 }
 
