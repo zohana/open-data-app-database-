@@ -227,6 +227,7 @@ h2{
 dl{
 	display:inline;
 	width:100%;	
+	
 }
  dt{
  float:left;
@@ -234,6 +235,7 @@ dl{
  text-decoration:underline;	
  margin:0;
  padding:0;
+ line-height:2;
  
 }
 
