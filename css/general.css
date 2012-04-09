@@ -230,14 +230,13 @@ dt{
 }
 
 dd{
-	display:tabel;
+	display:table-cell;
 }
 
 rater rater-usable{
 	margin:10px 0 0 200px;
 }
-/* dl{
-	margin:10px 10px 0 20px;
-	padding:20px;	
-}*/
+ dl{
+	display:table;
+}
 
