@@ -212,6 +212,18 @@ h2{
 	text-decoration:underline;
 }
 
+h3{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+	color:#039;
+	width:70%;
+	margin:10px 0 0px 200px;
+	padding:0;
+	
+	text-decoration:underline;
+}	
+
+
 .ratedeco{
 	width:500px;
 	height:100px;
