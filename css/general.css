@@ -225,7 +225,7 @@ h2{
 	font:#fff;
 }
 dt{
- display: table-column;
+ display: table;
  text-decoration:underline;	
 }
 
