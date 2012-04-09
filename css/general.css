@@ -226,7 +226,7 @@ h2{
 }
 dl{
 	display:inline;
-	width:100%;	
+	/*width:100%;	*/
 	padding-top:10px;
 	
 }
