@@ -92,7 +92,11 @@ h1{
 .box{
     margin:0;
 	padding:10px 0 10px 0;
-	background-color:rgba(204,204,204,.4);
+	
+}
+
+.box li{
+   background-color: rgba(153,102,153,.3);	
 }
 
 
