@@ -30,7 +30,7 @@ include 'includes/theme-top.php';
 			$rating = 0;
 		}
 	?>
-	<li itemscope itemtype="http://schema.org/TouristAttraction" data-id="<?php echo $museums['id']; ?>">
+	<li itemscope itemtype="http://schema.org/TouristAttraction" data-id="<?php echo $museums['id']; ?>" class="box">
 		<strong class="distance">
 		<a href="single.php?id=<?php echo $museums['id']; ?>" itemprop="name"><?php echo $museums['name']; ?></a>
 		<span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">

@@ -89,6 +89,11 @@ h1{
 	
 }
 
+.box{
+    margin:0;
+	padding:10px 0 10px 0;	
+}
+
 
 /*.museums a, .museums a:link, .museums a:visited {
     border: 1px solid #FFFFFF;
