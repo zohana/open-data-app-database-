@@ -227,6 +227,7 @@ h2{
 dl{
 	display:inline;
 	width:100%;	
+	apdding-top:10px;
 	
 }
  dt{
@@ -255,4 +256,8 @@ dd{
 meter {
 	padding:0;
 	margin:0;
+}
+
+.rater rater-usable{
+	margin-top:30px;
 }
