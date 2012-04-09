@@ -236,8 +236,14 @@ dl{
  text-decoration:underline;	
 
  padding:0;
+ }
  
- 
+.a1 dt{
+	margin-top:10px;	
+}
+
+.a1 dd{
+	margin-top:10px;	
 }
 
 dd{
