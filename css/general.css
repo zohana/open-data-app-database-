@@ -47,6 +47,8 @@ figure{
 	width: 530px;
 	height:430px;
 	box-shadow: 0px 0px 5px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px 5px #999;
+    -moz-box-shadow: 0px 0px 5px 5px #999;
 	
 }
 
@@ -213,4 +215,6 @@ h2{
 	font-family:"Courier New", Courier, monospace;
 	font-size:18px;
 	box-shadow: 0px 0px 5px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px 5px #999;
+	-moz-box-shadow: 0px 0px 5px 5px #999;
 }
