@@ -80,9 +80,12 @@ h1{
 	color:#309; /*dark blue*/
 	text-decoration:none;
 	padding:10px 0 10px 0;
-	background-color:rgba(102,102,255,.3);
+	
 }
 
+.distance li{
+background-color:rgba(102,102,255,.3);
+}
 
 .museums li {
 	cursor: pointer;
