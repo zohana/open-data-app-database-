@@ -83,8 +83,8 @@ h1{
 	
 }
 
-.distance li{
-background-color:rgba(102,102,255,.3);
+.distance .rater-level li{
+background-color:none;
 }
 
 .museums li {
