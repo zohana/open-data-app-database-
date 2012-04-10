@@ -26,11 +26,9 @@ border-radius: 15px;
 box-shadow: 0px 0px 5px 5px #F90;
 
 }
-.top{
-	margin:0;
-	padding:0;
-	display:inline;
-	background-color:#0F9;
+label{
+	display:block;
+	padding:0 0 0.1em 0;	
 }
 figure{
 	margin-top:-50px;
