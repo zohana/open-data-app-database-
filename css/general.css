@@ -28,7 +28,8 @@ box-shadow: 0px 0px 5px 5px #F90;
 }
 
 #geo{
- margin:0 0 0 30px;		
+	margin:0 0 0 30px;		
+	width:60%;
 }
 
 #geo-form{
