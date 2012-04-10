@@ -2,7 +2,7 @@
 require_once '../includes/db.php';
 require_once '../includes/users.php';
 
-if(user_is_signed_in()){
+if(user_is_signed_in()){ 
 	header('Location: index.php');
 	exit;
 }
