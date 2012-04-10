@@ -13,12 +13,12 @@ include 'includes/theme-top.php';
 
 ?>
 
-<button id="geo">search</button>
+
 <form id="geo-form">
 	<div><label for="adr">Address</label>
 	<input id="adr"></div>
 </form>
-
+<button id="geo">search</button>
 
 <ul class="museums">
 
