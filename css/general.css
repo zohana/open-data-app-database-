@@ -27,7 +27,8 @@ box-shadow: 0px 0px 5px 5px #F90;
 
 }
 .but{
-	width:100px;
+	margin:0;
+	padding:0;
 }
 
 
