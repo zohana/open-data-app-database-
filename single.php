@@ -73,6 +73,8 @@ include 'includes/theme-top.php';
 </div>
 <?php endif; ?>
 
+	<a class="homy" href = "index.php">Home</a>
+
 <?php
 
 include 'includes/theme-bottom.php';
