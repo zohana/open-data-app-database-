@@ -248,7 +248,7 @@ h3{
 
 .ratedeco{
 	width:500px;
-	height:300px;
+	height:150px;
 	margin:20px 0 0 230px;
 	padding:20px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -302,7 +302,7 @@ meter {
 	margin:0;
 }
 
-/*.ra{
+.ra{
 	width:500px;
 	height:100px;
 	font-family:"Courier New", Courier, monospace;
@@ -313,7 +313,7 @@ meter {
 	margin:20px 0 0 230px;
 	padding:20px;
 	font:#fff;
-}*/
+}
 
 /*----------------------------------admin.php-----------------------*/
 .admin-box{
