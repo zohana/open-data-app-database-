@@ -339,8 +339,6 @@ meter {
 	list-style: none;
 	text-decoration:none;
 	line-height:2;
-	background-color:#3C6;
-	
 }
 
 /*{
@@ -351,6 +349,7 @@ meter {
 }
 */
 
-/*.edit-stuff{
-	float:left;
-}*/
+.edit-stuff{
+	background-color:#3F9;
+	
+}
