@@ -29,9 +29,9 @@ include '../includes/theme-top.php';
 		<a href ="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
         &bull;
         <div class="edit-stuff">
-           <li> <a href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
-            <a href ="edit.php?id=<?php echo $museums['id'];?>">Edit</a>
-            <a href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
+           <li> <a class="hover1" href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
+            <a class="hover1" href ="edit.php?id=<?php echo $museums['id'];?>">Edit</a>
+            <a class="hover1" href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
             </li>
        	</div>
         
