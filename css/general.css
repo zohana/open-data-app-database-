@@ -316,10 +316,11 @@ meter {
 	font:#fff;
 	line-height:2;
 	overflow-y:scroll;
-	float:right;
-	/*bottom: 0px;
-	float:right;
 	position: absolute;
+	/*float:right;
+	bottom: 0px;
+	float:right;
+	
 	margin: 430px 0px 0px 100px;
 	top: 35px;
 	width: 700px;
