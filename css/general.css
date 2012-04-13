@@ -372,9 +372,13 @@ meter {
 }
 
 .sin{
-	text-align:center;
+	
 	text-decoration:none;
 	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:16px;
 	color:#FFF;
+}
+
+.sin a{
+	text-align:center;
 }
