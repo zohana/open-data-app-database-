@@ -339,16 +339,17 @@ meter {
 	list-style: none;
 	text-decoration:none;
 	line-height:2;
+	background-color:#3C6;
 	
 }
 
-a{
+/*{
 	color:#333;
 	list-style: none;
 	text-decoration:none;
-	background-color:#3C6;
+	
 }
-
+*/
 
 /*.edit-stuff{
 	float:left;
