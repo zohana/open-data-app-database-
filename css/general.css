@@ -282,9 +282,10 @@ dd{
 }
 
 
- .address{
+ #address{
 	 float:left;
 	 width:100%;
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
  }
 
 meter {
@@ -305,6 +306,7 @@ meter {
 	font:#fff;
 }
 
+/*----------------------------------admin.php-----------------------*/
 .admin-box{
 	width:500px;
 	height:380px;
