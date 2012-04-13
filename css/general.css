@@ -342,10 +342,11 @@ meter {
 	
 }
 
- li{
+li{
 	color:#333;
 	list-style: none;
 	text-decoration:none;
+	background-color:#3C6;
 }
 
 
