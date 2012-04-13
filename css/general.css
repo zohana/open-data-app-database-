@@ -344,7 +344,7 @@ meter {
 
 .ul1 li{
 	color:#333;
-	
+	list-style: none;
 	text-decoration:none;
 }
 
@@ -352,11 +352,3 @@ meter {
 /*.edit-stuff{
 	float:left;
 }*/
-
-.lines{
-	list-style: none;
-	text-decoration:none;
-}
-li{
-	list-style: none;
-}
