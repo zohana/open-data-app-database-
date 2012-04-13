@@ -21,13 +21,9 @@ include '../includes/theme-top.php';
 
 
 <a href = "sign-out.php">Sign Out</a>
+<div class="admin-box">
   <ul>
-     <?php 
-      /*foreach ($results as $dino) {
-		echo '<li>'. $dino['dino_name'].'<li>';  
-	  }*/
-     ?>
- 
+    
         <?php foreach ($results as $museums) :?> 
 		<li><a href="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
         &bull;
@@ -38,7 +34,7 @@ include '../includes/theme-top.php';
         </li>
         <?php endforeach; ?>
     </ul>
-          
+</div>
           
 <?php
 
