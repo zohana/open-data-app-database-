@@ -306,7 +306,7 @@ meter {
 }
 
 .admin-box{
-	/*width:500px;
+	width:500px;
 	height:380px;
 	margin:20px 0 0 230px;
 	padding:20px;
@@ -315,8 +315,8 @@ meter {
 	-moz-box-shadow: 0px 0px 5px 5px #999;
 	
 	overflow-y:scroll;
-	position: absolute;*/
-	float:right;
+	position: absolute;
+	/*float:right;
 	bottom: 0px;
 	
 	
@@ -327,7 +327,7 @@ meter {
 	box-shadow: 0px 0px 5px 5px #999;
 	-webkit-box-shadow: 0px 0px 5px 5px #999;
     -moz-box-shadow: 0px 0px 5px 5px #999;
-	
+	*/
 	
 }
 
@@ -339,7 +339,7 @@ meter {
 	list-style: none;
 	text-decoration:none;
 	line-height:2;
-	float:left;
+	
 }
 
 .ul1 li{
