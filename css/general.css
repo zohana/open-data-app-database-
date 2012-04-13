@@ -323,4 +323,8 @@ meter {
 .ul1{
 	margin:20px 0 0 40px;
 	padding:10px;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#333;
+	list-style: none;
+	text-decoration:none;
 }
