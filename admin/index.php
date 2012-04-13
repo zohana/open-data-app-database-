@@ -25,14 +25,14 @@ include '../includes/theme-top.php';
   <ul class="ul1">
     
         <?php foreach ($results as $museums) :?> 
-		<li class="lines"><a href="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
+		<li ><a href class="lines"="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> </li>
         &bull;
         <div class="edit-stuff">
             <a href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
             <a href ="edit.php?id=<?php echo $museums['id'];?>">Edit</a>
             <a href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
        	</div>
-        </li>
+        
         <?php endforeach; ?>
     </ul>
 </div>
