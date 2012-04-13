@@ -48,6 +48,11 @@ $results = $db->query('SELECT id,name,longitude,latitude
     </ul>
           
           
+<?php
+
+include 'includes/theme-bottom.php';
+
+?>
 
 
 </body>
