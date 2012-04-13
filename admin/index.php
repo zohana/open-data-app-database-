@@ -2,7 +2,7 @@
 
 require_once '../includes/db.php';
 require_once '../includes/users.php';
-include '../includes/theme-top.php';
+
 
 if(!user_is_signed_in()){
 	header('Location: sign-in.php');
@@ -16,7 +16,7 @@ $results = $db->query('SELECT id,name,longitude,latitude
                        FROM museums 
 					   ORDER BY name ASC'
 					  );
-
+include '../includes/theme-top.php';
 ?>
 
 
@@ -24,7 +24,7 @@ $results = $db->query('SELECT id,name,longitude,latitude
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ottawa Museums</title>
+<title>admin page</title>
 </head>
 <body>
 
