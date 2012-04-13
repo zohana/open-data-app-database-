@@ -28,9 +28,10 @@ include '../includes/theme-top.php';
 		<a href ="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
         &bull;
         <div class="edit-stuff">
-            <a href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
+           <li> <a href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
             <a href ="edit.php?id=<?php echo $museums['id'];?>">Edit</a>
             <a href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
+            </li>
        	</div>
         
         <?php endforeach; ?>
