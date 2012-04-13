@@ -20,14 +20,6 @@ include '../includes/theme-top.php';
 ?>
 
 
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>admin page</title>
-</head>
-<body>
-
 <a href = "sign-out.php">Sign Out</a>
   <ul>
      <?php 
@@ -53,7 +45,3 @@ include '../includes/theme-top.php';
 include '../includes/theme-bottom.php';
 
 ?>
-
-
-</body>
-</html>
