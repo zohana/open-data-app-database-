@@ -50,7 +50,7 @@ $results = $db->query('SELECT id,name,longitude,latitude
           
 <?php
 
-include 'includes/theme-bottom.php';
+include '../includes/theme-bottom.php';
 
 ?>
 
