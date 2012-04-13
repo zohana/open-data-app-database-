@@ -305,3 +305,15 @@ meter {
 	font:#fff;
 }
 
+.rater rater-usable{
+	width:500px;
+	height:100px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+	box-shadow: 0px 0px 5px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px 5px #999;
+	-moz-box-shadow: 0px 0px 5px 5px #999;
+	margin:20px 0 0 230px;
+	padding:20px;
+	font:#fff;
+}
