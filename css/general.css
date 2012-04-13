@@ -379,6 +379,10 @@ meter {
 	color:#FFF;
 }
 
-.sin a{
+.sin a:link{
 	text-align:center;
+}
+
+.sin:hover{
+	color:#006;
 }
