@@ -359,3 +359,9 @@ meter {
 .edit-stuff a:link{
 	color:#036;
 }
+
+.edit-stuff a,
+.edit-stuff a:link
+.edit-stuff a:hover{
+	color:#360;
+}
