@@ -19,8 +19,9 @@ $results = $db->query('SELECT id,name,longitude,latitude
 include '../includes/theme-top.php';
 ?>
 
-
-<a href = "sign-out.php">Sign Out</a>
+<div class="sign">
+	<a href = "sign-out.php">Sign Out</a>
+</div>
 <div class="admin-box">
   <ul class="ul1">
     

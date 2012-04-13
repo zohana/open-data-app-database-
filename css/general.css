@@ -363,3 +363,8 @@ meter {
 .edit-stuff li:hover{
 	color:#3F3;
 }
+
+.sign{
+	background-color:#666;
+	float: right;
+}
