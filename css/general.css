@@ -352,3 +352,8 @@ meter {
 /*.edit-stuff{
 	float:left;
 }*/
+
+.lines{
+	list-style: none;
+	text-decoration:none;
+}
