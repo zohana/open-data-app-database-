@@ -306,15 +306,14 @@ meter {
 }
 
 .admin-box{
-	float:right;
-	bottom: 0px;
-	float:right;
-	position: absolute;
-	margin: 430px 0px 0px 70px;
-	top: 35px;
-	width: 700px;
-	height:430px;
+	width:500px;
+	height:100px;
+	margin:20px 0 0 230px;
+	padding:20px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
 	box-shadow: 0px 0px 5px 5px #999;
 	-webkit-box-shadow: 0px 0px 5px 5px #999;
-    -moz-box-shadow: 0px 0px 5px 5px #999;
+	-moz-box-shadow: 0px 0px 5px 5px #999;
+	font:#fff;
 }
