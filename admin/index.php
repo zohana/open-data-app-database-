@@ -20,7 +20,7 @@ include '../includes/theme-top.php';
 ?>
 
 <div class="sign">
-	<a href = "sign-out.php">Sign Out</a>
+	<a class="sin" href = "sign-out.php">Sign Out</a>
 </div>
 <div class="admin-box">
   <ul class="ul1">
