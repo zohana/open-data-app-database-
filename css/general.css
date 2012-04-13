@@ -248,7 +248,7 @@ h3{
 
 .ratedeco{
 	width:500px;
-	height:100px;
+	height:300px;
 	margin:20px 0 0 230px;
 	padding:20px;
 	font-family:"Courier New", Courier, monospace;
@@ -264,22 +264,22 @@ dl{
 	padding-top:10px;
 	
 }
- dt{
+/* dt{
  float:left;
  width:50%;
  text-decoration:underline;	
 
  padding:0;
- }
+ }*/
  
 
 
-dd{
+/*dd{
  width:50%;	
  float:left;
  margin:0;
  padding:0;
-}
+}*/
 
 
  #address{
@@ -293,7 +293,7 @@ meter {
 	margin:0;
 }
 
-.ra{
+/*.ra{
 	width:500px;
 	height:100px;
 	font-family:"Courier New", Courier, monospace;
@@ -304,7 +304,7 @@ meter {
 	margin:20px 0 0 230px;
 	padding:20px;
 	font:#fff;
-}
+}*/
 
 /*----------------------------------admin.php-----------------------*/
 .admin-box{
