@@ -22,7 +22,7 @@ include '../includes/theme-top.php';
 
 <a href = "sign-out.php">Sign Out</a>
 <div class="admin-box">
-  <ul>
+  <ul class="ul1">
     
         <?php foreach ($results as $museums) :?> 
 		<li><a href="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
