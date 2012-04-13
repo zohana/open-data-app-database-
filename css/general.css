@@ -282,11 +282,17 @@ dl{
 }*/
 
 
- #address{
+#address1{
+	 float:left;
+	 width:100%;
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+ 
+#address{
 	 float:left;
 	 width:30%;
 	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
- }
+}
  
  
 
