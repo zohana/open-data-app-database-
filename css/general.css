@@ -350,8 +350,12 @@ meter {
 */
 
 .edit-stuff{
-	background-color:#3F9;
+	
 	width:30%;
 	margin:0 0 0 30px;
-	
+}
+
+.edit-stuff a,
+.edit-stuff a:link{
+	color:#036;
 }
