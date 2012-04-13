@@ -25,7 +25,7 @@ include '../includes/theme-top.php';
   <ul class="ul1">
     
         <?php foreach ($results as $museums) :?> 
-		<li ><a href class="lines"="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> </li>
+		<li><a href class="lines"="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> </li>
         &bull;
         <div class="edit-stuff">
             <a href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
