@@ -313,12 +313,12 @@ meter {
 	box-shadow: 0px 0px 5px 5px #999;
 	-webkit-box-shadow: 0px 0px 5px 5px #999;
 	-moz-box-shadow: 0px 0px 5px 5px #999;
-	line-height:2;
+	
 	overflow-y:scroll;
 	position: absolute;
 	/*float:right;
 	bottom: 0px;
-	float:right;
+	
 	
 	margin: 430px 0px 0px 100px;
 	top: 35px;
@@ -338,7 +338,15 @@ meter {
 	color:#333;
 	list-style: none;
 	text-decoration:none;
+	line-height:2;
 }
+
+.ul1 li{
+	color:#333;
+	list-style: none;
+	text-decoration:none;
+}
+
 
 .edit-stuff{
 	float:left;
