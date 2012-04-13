@@ -339,6 +339,7 @@ meter {
 	list-style: none;
 	text-decoration:none;
 	line-height:2;
+	float:left;
 }
 
 .ul1 li{
