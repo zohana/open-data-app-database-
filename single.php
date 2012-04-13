@@ -48,7 +48,7 @@ include 'includes/theme-top.php';
     </dd>
 	<dt id="address1">Address:</dt><dd><?php echo $museums['adr']; ?></dd>
 	<dt id="address">Longitude:</dt><dd><?php echo $museums['longitude']; ?></dd>
-	<dt id="address">Latitude:</dt><dd><?php echo $museums['latitude']; ?></dd>
+	<dt id="address2">Latitude:</dt><dd><?php echo $museums['latitude']; ?></dd>
 </dl>
 </div>
 <?php if (isset($cookie[$id])) : ?>

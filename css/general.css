@@ -294,6 +294,11 @@ dl{
 	 width:100%;
 	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
  }
+ #address2{
+	 float:left;
+	 width:30%;
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }
 
 meter {
 	padding:0;
