@@ -406,6 +406,8 @@ dl{
 	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:16px;
 	color:#FFF;
+	float:right;
+	padding:10px;
 }
 
 .sin1{
