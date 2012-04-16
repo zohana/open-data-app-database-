@@ -430,9 +430,21 @@ dl{
 	color:#036;
 }
 
+/*----------------info-window-----------------------------*/
 
+.info-window{
+	 -moz-user-select: none;
+    background-color: #093;
+    border: 1px solid #ABABAB;
+    height: 88px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 403px;
+}
 
-
+/*----------------------------------------------------*/
 .clearfix:after {
 	content: ".";
 	display: block;
