@@ -95,7 +95,7 @@ h1{
 }
 
 .museums{
-	margin:20px 20px 0 0;
+	margin:30px 20px 0 0;
 	height:410px;
 	width:380px;
 	padding: 10px;
@@ -412,12 +412,14 @@ dl{
 	text-decoration:none;
 	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:16px;
-	color:#FFF;
+	color:#FC0;
 	
 	float:right;
 }
 
-
+.sin1:hover{
+	color:#006;
+}
 
 .sin:hover{
 	color:#006;
