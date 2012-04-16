@@ -34,11 +34,13 @@ body{
 
 #geo-form{
 	margin: 0 0 0 30px;
-	width:200px;	
+	width:300px;
+	display: inline-block;	
 }
 
 #adr{
-	width:50%;	
+	width:150px;
+	display: inline-block;	
 }
 
 div{
