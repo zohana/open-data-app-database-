@@ -8,12 +8,13 @@
 	<script src="/js/modernizr.dev.js"></script>
 </head>
 <body>
+    <div class="sign">
+        <a class="sin" href = "/admin/sign-in.php">Admin</a>
+    </div>
 <header><h1>Ottawa Museums</h1>
 <figure>
 	<img src="/images/building.png">
 </figure>
 
-<div class="sign">
-	<a class="sin" href = "/admin/sign-in.php">Admin</a>
-</div>
+
 </header>
