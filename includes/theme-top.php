@@ -12,6 +12,4 @@
 <figure>
 	<img src="/images/building.png">
 </figure>
-
-
 </header>
