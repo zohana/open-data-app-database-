@@ -1,5 +1,5 @@
 
-	<a class="sin" href = "/admin/sign-in.php">Admin</a>
+	<a class="sin1" href = "/admin/sign-in.php">Admin</a>
 
 <?php
 
