@@ -13,7 +13,5 @@
 	<img src="/images/building.png">
 </figure>
 
-<div class="sign">
-	<a class="sin" href = "/admin/sign-in.php">Admin</a>
-</div>
+
 </header>
