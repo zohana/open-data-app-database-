@@ -1,39 +1,29 @@
-# Signature Pad
-SignaturePad: A jQuery plugin for assisting in the creation of an HTML5 canvas based signature pad. Records the drawn signature in JSON for later regeneration.
+#Author Info: 
+Priyanka Gite. Web developer and designer.
+zohana28@yahoo.com
 
-Copyright MMXI, Thomas J Bradley, <hey@thomasjbradley.ca>
+# Open data App
+Open data app: Data-base to find the museums around Ottawa.
 
-Dependencies: FlashCanvas/1.5, json2.js, jQuery/1.3.2+
+Copyright MMXI, Priyanka Gite, <zohana28@yahoo.com>
+
+Dependencies: jQuery, HTML5 ,CSS, google maps
 
 Versioned using Semantic Versioning, <http://semver.org/>
 
 ## Quick Start
-1. Include `jquery.signaturepad.css`, `flashcanvas.js`, `jquery.js`, `jquery.signaturepad.js`, `json2.js` in your HTML file
-2. Create the HTML, following the example: <https://github.com/thomasjbradley/signature-pad/blob/master/examples/accept-signature.html>
-3. `$('.sigPad').signaturePad();`
-4. Remember that [most things are configurable](http://thomasjbradley.ca/lab/signature-pad#options)
+1.get the kml file from-http://ottawa.ca/online_services/opendata/info/museums_en.html
+2. Include `general.css`, `museums.js`, in your HTML file. Also create a table with the name and location of the museums and code the sql query in the HTML file.
+3. Include google maps, "http://schema.org/TouristAttraction" in your HTML file.
+4. Link it to github :git@github.com:zohana/open-data-app-database-.git
+5. link it to phpfog :git@git01.phpfog.com:priya.phpfogapp.com
 
-## Complete Documentation
-<http://thomasjbradley.ca/lab/signature-pad>
+## Installation Process
+The application do not require any installation.
 
-## Examples
-- [Accepting a Signature](https://github.com/thomasjbradley/signature-pad/blob/master/examples/accept-signature.html)
-- [Requiring a Drawn Signature](https://github.com/thomasjbradley/signature-pad/blob/master/examples/require-drawn-signature.html)
-- [Regenerating a Signature](https://github.com/thomasjbradley/signature-pad/blob/master/examples/regenerate-signature.html)
-- [Accepting Multiple Signatures](https://github.com/thomasjbradley/signature-pad/blob/master/examples/accept-multiple-signatures.html)
 
-## Demos
-- [Accepting a Signature](http://thomasjbradley.ca/lab/signature-pad-accept)
-- [Requiring a Drawn Signature](http://thomasjbradley.ca/lab/signature-pad-require-drawn)
-- [Regenerating a Signature](http://thomasjbradley.ca/lab/signature-pad-regenerate)
-
-## Converting to an Image
-<http://thomasjbradley.ca/lab/signature-pad/#images>
-
-## Source Code
-<http://github.com/thomasjbradley/signature-pad>
 
 ## License
-Signature Pad is licensed under the [New BSD license](https://github.com/thomasjbradley/signature-pad/blob/master/NEW-BSD-LICENSE.txt).
+Signature Pad is licensed under the [New BSD license].
 
-All dependencies: jQuery, json2.js, and FlashCanvas retain their own licenses.
+
