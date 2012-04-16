@@ -59,6 +59,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         </div>
         <button type="submit">Sign In</button>
      </form>
-            
+ <a class="sin" href = "index.php">Sign Out</a>           
 </body>
 </html>
