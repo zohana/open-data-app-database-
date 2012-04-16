@@ -17,7 +17,7 @@ include 'includes/theme-top.php';
 <form id="geo-form">
 	<label for="adr">Address</label>
 	<input id="adr">
-    <button id="adr">Search</button>
+    <button id="adr1">Search</button>
 </form>
 <button id="geo">Current Location</button>
 </div>

@@ -43,6 +43,11 @@ body{
 	display: inline-block;	
 }
 
+#adr1{
+	width:100px;
+	display: inline-block;	
+}
+
 div{
 	margin:0;
 	padding:0;
