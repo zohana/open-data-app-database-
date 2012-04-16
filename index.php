@@ -1,4 +1,6 @@
 
+	<a class="sin" href = "/admin/sign-in.php">Admin</a>
+
 <?php
 
 require_once 'includes/db.php';
