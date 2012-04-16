@@ -419,6 +419,10 @@ dl{
 	padding:10px;
 }
 
+.homy:hover{
+	color:#006;
+}
+
 .sin1{
 	text-decoration:none;
 	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
