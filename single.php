@@ -71,9 +71,9 @@ include 'includes/theme-top.php';
 	
 <?php endif; ?>
 </div>
-    <div class="sign">
+    
         <a class="homy" href = "index.php">Home</a>
-    </div>
+
 <?php
 
 include 'includes/theme-bottom.php';
