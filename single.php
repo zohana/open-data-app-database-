@@ -41,40 +41,39 @@ include 'includes/theme-top.php';
 
 <h2><?php echo $museums['name']; ?></h2>
 <div class="ratedeco">
-
-<dl>
-    
-	<dt>Average Rating:</dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter>
-    </dd>
-	<dt id="address1">Address:</dt><dd><?php echo $museums['adr']; ?></dd>
-	<dt id="address">Longitude:</dt><dd><?php echo $museums['longitude']; ?></dd>
-	<dt id="address">Latitude:</dt><dd><?php echo $museums['latitude']; ?></dd>
-</dl>
-</div>
-<?php if (isset($cookie[$id])) : ?>
+    <dl>
+         <dt>Average Rating:</dt><dd><meter value="<?php echo $rating; ?>" min="0" max="5"><?php echo $rating; ?> out of 5</meter></dd>
+        <dt id="address1">Address:</dt><dd><?php echo $museums['adr']; ?></dd>
+        <dt id="address">Longitude:</dt><dd><?php echo $museums['longitude']; ?></dd>
+        <dt id="address">Latitude:</dt><dd><?php echo $museums['latitude']; ?></dd>
+     </dl>
+</div> 
+   
 <div class="ra">
-<h3>Your rating</h3>
-<ol class="rater rater-usable">
-	<?php for ($i = 1; $i <= 5; $i++) : ?>
-		<?php $class = ($i <= $cookie[$id]) ? 'is-rated' : ''; ?>
-		<li class="rater-level <?php echo $class; ?>">★</li>
-	<?php endfor; ?>
-</ol>
+<?php if (isset($cookie[$id])) : ?>
+	
+        <h3>Your rating</h3>
+            <ol class="rater rater-usable">
+                <?php for ($i = 1; $i <= 5; $i++) : ?>
+                    <?php $class = ($i <= $cookie[$id]) ? 'is-rated' : ''; ?>
+                    <li class="rater-level <?php echo $class; ?>">★</li>
+                <?php endfor; ?>
+            </ol>
 
-<?php else : ?>
+	<?php else : ?>
 
-<h3>Rate</h3>
-<ol class="rater rater-usable">
-	<?php for ($i = 1; $i <= 5; $i++) : ?>
-	<li class="rater-level"><a href="rate.php?id=<?php echo $museums['id']; ?>&rate=<?php echo $i; ?>">★</a></li>
-	<?php endfor; ?>
-</ol>
-
-</div>
+		<h3>Rate</h3>
+        <ol class="rater rater-usable">
+            <?php for ($i = 1; $i <= 5; $i++) : ?>
+            	<li class="rater-level"><a href="rate.php?id=<?php echo $museums['id']; ?>&rate=<?php echo $i; ?>">★</a></li>
+            <?php endfor; ?>
+        </ol>
+	
 <?php endif; ?>
-<div class="sign">
-	<a class="homy" href = "index.php">Home</a>
 </div>
+    <div class="sign">
+        <a class="homy" href = "index.php">Home</a>
+    </div>
 <?php
 
 include 'includes/theme-bottom.php';

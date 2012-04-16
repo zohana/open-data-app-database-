@@ -14,6 +14,6 @@
 </figure>
 
 <div class="sign">
-	<a class="sin" href = "../sign-in.php">Admin</a>
+	<a class="sin" href = "/admin/sign-in.php">Admin</a>
 </div>
 </header>
