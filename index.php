@@ -20,6 +20,8 @@ include 'includes/theme-top.php';
 </form>
 <button id="geo">search</button>
 </div>
+
+<div class="clearfix">
 <div id="map"></div>
 <ul class="museums">
 
@@ -49,7 +51,7 @@ include 'includes/theme-top.php';
 <?php endforeach; ?>
 </ul>
 
-
+</div>
 
 
 

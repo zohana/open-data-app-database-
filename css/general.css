@@ -69,7 +69,6 @@ figure{
 	height:430px;
 	bottom: 0px;
 	
-	float:right;
 	position: absolute;
 	
 	box-shadow: 0px 0px 5px 5px #999;
@@ -96,7 +95,8 @@ h1{
 	width:380px;
 	padding: 10px;
 	
-	
+	float: right;
+	display: inline;
 	/*background-color:#fff;*/
 	
 	box-shadow: 0px 0px 5px 5px #999;
@@ -411,4 +411,28 @@ dl{
 
 #over1:hover{
 	color:#036;
+}
+
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
 }
