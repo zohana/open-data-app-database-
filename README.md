@@ -1,9 +1,12 @@
-#Author Info: 
-Priyanka Gite. Web developer and designer.
-zohana28@yahoo.com
+
 
 # Open data App
 Open data app: Data-base to find the museums around Ottawa.
+
+
+#Author Info: 
+Priyanka Gite. Web developer and designer.
+zohana28@yahoo.com
 
 Copyright MMXI, Priyanka Gite, <zohana28@yahoo.com>
 
@@ -15,8 +18,8 @@ Versioned using Semantic Versioning, <http://semver.org/>
 1.get the kml file from-http://ottawa.ca/online_services/opendata/info/museums_en.html
 2. Include `general.css`, `museums.js`, in your HTML file. Also create a table with the name and location of the museums and code the sql query in the HTML file.
 3. Include google maps, "http://schema.org/TouristAttraction" in your HTML file.
-4. Link it to github :git@github.com:zohana/open-data-app-database-.git
-5. link it to phpfog :git@git01.phpfog.com:priya.phpfogapp.com
+4. Github link: <https://github.com/zohana/open-data-app-database->
+5. phpfog link:<http://priya.phpfogapp.com/index.php>
 
 ## Installation Process
 The application do not require any installation.
