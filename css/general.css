@@ -432,7 +432,7 @@ dl{
 
 /*----------------info-window-----------------------------*/
 
-.info-window{
+/*.info-window{
 	 -moz-user-select: none;
     background-color: #093;
     border: 1px solid #ABABAB;
@@ -452,7 +452,7 @@ dl{
 	background-color: white; 
 	border: 1px solid rgb(171, 171, 171);
 
-}
+}*/
 
 
 /*----------------------------------------------------*/
