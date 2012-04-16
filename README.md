@@ -16,9 +16,9 @@ Versioned using Semantic Versioning, <http://semver.org/>
 
 ## Quick Start
 
-<b>1.get the kml file from-http://ottawa.ca/online_services/opendata/info/museums_en.html.</b>
+1.get the kml file from-http://ottawa.ca/online_services/opendata/info/museums_en.html.
 
-<b>2. Include `general.css`, `museums.js`, in your HTML file. Also create a table with the name and location of the museums and code the sql query in the HTML file.</b>
+2. Include `general.css`, `museums.js`, in your HTML file. Also create a table with the name and location of the museums and code the sql query in the HTML file.
 
 3. Include google maps, "http://schema.org/TouristAttraction" in your HTML file.
 
