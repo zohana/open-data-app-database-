@@ -1,4 +1,16 @@
 // JavaScript Document
+
+/*?>*small description: java script file.
+*
+*@package
+*@copyright 2012 Priyanka Gite
+*@author Priyanka Gitet <zohana28@yahoo.com>
+*@link https://github.com/zohana/open-data-app-database-
+*@link http://ottawa-museums.phpfogapp.com/
+*@license New BSD Licence
+*@version 1.0.0<?php */
+
+
 $(document).ready(function () {
 
   var locations = [];

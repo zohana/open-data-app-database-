@@ -1,13 +1,14 @@
-<!--/**
+<?php /*?>*
 *small description: Displays the list and the map for the Open Data
 *
 *@package
 *@copyright 2012 Priyanka Gite
 *@author Priyanka Gitet <zohana28@yahoo.com>
 *@link https://github.com/zohana/open-data-app-database-
+*@link http://ottawa-museums.phpfogapp.com/
 *@license New BSD Licence
 *@version 1.0.0
-*/-->
+<?php */?>
 
 	<a class="sin1" href = "/admin/sign-in.php">Admin</a>
 

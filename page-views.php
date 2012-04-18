@@ -1,3 +1,17 @@
+<?php /*?>*
+*small description: Track how many times u've viewed this page for this session.
+*
+*@package
+*@copyright 2012 Priyanka Gite
+*@author Priyanka Gitet <zohana28@yahoo.com>
+*@link https://github.com/zohana/open-data-app-database-
+*@link http://ottawa-museums.phpfogapp.com/
+*@license New BSD Licence
+*@version 1.0.0
+<?php */?>
+
+
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -7,7 +21,7 @@
 <body>
 <?php
 
-//Track how many times u've viewed this page for this session.
+//
 
 //Turn on sessions
 session_start();

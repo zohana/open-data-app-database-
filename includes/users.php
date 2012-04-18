@@ -1,6 +1,19 @@
+
+<?php /*?>*small description: //A self contained file that holds all the functions we need for user authentication.
+*
+*@package
+*@copyright 2012 Priyanka Gite
+*@author Priyanka Gitet <zohana28@yahoo.com>
+*@link https://github.com/zohana/open-data-app-database-
+*@link http://ottawa-museums.phpfogapp.com/
+*@license New BSD Licence
+*@version 1.0.0<?php */?>
+
+
+
 <?php
 
-//A self contained file that holds all the functions we need for user authentication.
+
 
 
 

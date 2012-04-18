@@ -1,6 +1,20 @@
+<?php /*?>*small description://gets an environment variable we created in the .htaccess file
+*
+*@package
+*@copyright 2012 Priyanka Gite
+*@author Priyanka Gitet <zohana28@yahoo.com>
+*@link https://github.com/zohana/open-data-app-database-
+*@link http://ottawa-museums.phpfogapp.com/
+*@license New BSD Licence
+*@version 1.0.0<?php */?>
+
+
+
+
+
 <?php
 
-//gets an environment variable we created in the .htaccess file
+
 //this is the best way to keep the user names and passwords out of public GitHub repository
 $user = getenv('DB_USER');
 $pass = getenv('DB_PASS');
