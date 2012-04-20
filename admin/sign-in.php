@@ -11,7 +11,7 @@
 <?php */?>
 
 
-
+<?php include 'includes/theme-top.php'; ?>
 <?php
 require_once '../includes/db.php';
 require_once '../includes/users.php';
@@ -54,12 +54,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 }
 
 ?>
-<!DOCTYPE HTML>
+<!--<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Sign In</title>
-</head>
+</head>-->
 
 <body>
 	<form method="post" action="sign-in.php">
@@ -74,5 +74,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         <button type="submit">Sign In</button>
      </form>
  <a class="sin" href = "../index.php">Home</a>           
-</body>
-</html>
+<!--</body>
+</html>-->
