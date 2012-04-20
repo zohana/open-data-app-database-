@@ -464,6 +464,14 @@ dl{
 .signin{
 	margin: 20px 0 0 60px;
 	padding:50px;
+	
+	width: 300px;
+	height:380px;
+	
+	box-shadow: 0px 0px 5px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px 5px #999;
+    -moz-box-shadow: 0px 0px 5px 5px #999;
+	
 }
 
 
