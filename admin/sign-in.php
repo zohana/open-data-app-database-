@@ -64,17 +64,19 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 </head>-->
 
 <body>
-	<form method="post" action="sign-in.php">
-    	<div>
-        	<label for="email">E-mail Adress</label>
-            <input type="email" id="email" name="email" required>
+		<div class = "signin">
+            <form method="post" action="sign-in.php">
+                <div>
+                    <label for="email">E-mail Adress</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Sign In</button>
+             </form>
         </div>
-        <div>
-        	<label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        <button type="submit">Sign In</button>
-     </form>
  <a class="sin" href = "../index.php">Home</a>           
 <!--</body>
 </html>-->
