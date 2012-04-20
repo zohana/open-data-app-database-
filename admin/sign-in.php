@@ -16,7 +16,7 @@
 require_once '../includes/db.php';
 require_once '../includes/users.php';
 
-include 'includes/theme-top.php';
+include '../includes/theme-top.php';
 
 if(user_is_signed_in()){ 
 	header('Location: index.php');
@@ -81,6 +81,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 <?php
 
-include 'includes/theme-bottom.php';
+include '../includes/theme-bottom.php';
 
 ?>
