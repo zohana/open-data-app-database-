@@ -10,13 +10,13 @@
 *@version 1.0.0
 <?php */?>
 
-
+<?php include '../includes/theme-top.php';?>
 
 <?php
 require_once '../includes/db.php';
 require_once '../includes/users.php';
 
-include '../includes/theme-top.php';
+
 
 if(user_is_signed_in()){ 
 	header('Location: index.php');
