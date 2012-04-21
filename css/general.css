@@ -19,7 +19,7 @@ html{
 	margin:0;
 	padding:20px;	
 	
-	
+	background:#000;
 }
 
 body{
@@ -49,17 +49,17 @@ body{
 #geo-form{
 	margin: 0 0 0 30px;
 	width:300px;
-	display: inline-block;	
+	display: inline;	
 }
 
 #adr{
 	width:150px;
-	display: inline-block;	
+	display:inline;	
 }
 
 #adr1{
 	width:70px;
-	display: inline-block;	
+	display: inline;	
 }
 
 div{
@@ -88,7 +88,7 @@ figure{
 	height:430px;
 	bottom: 0px;
 	
-	
+	position: absolute;
 	
 	box-shadow: 0px 0px 5px 5px #999;
 	-webkit-box-shadow: 0px 0px 5px 5px #999;
@@ -194,7 +194,7 @@ h1{
 	margin: 0;
 	padding: 0;
 	
-	display: inline-block;
+	display: inline;
 	/*vertical-align: middle;*/
 
 	list-style-type: none;
