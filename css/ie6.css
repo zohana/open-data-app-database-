@@ -32,14 +32,7 @@ body{
 	height:800px;
 	
 	
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
 	
-	-webkit-box-shadow: 0px 0px 5px 5px #F90;
-	-moz-box-shadow: 0px 0px 5px 5px #F90;
-	box-shadow: 0px 0px 5px 5px #F90;
-
 }
 
 #geo{
