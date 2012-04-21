@@ -22,12 +22,14 @@ background:#0F3;
 
 body {
 	margin:0 auto;
+	padding:0;
 	width:1000px;
 	
 }
 .wrapper {
 	
 	margin:0 auto;
+	padding:0;
 	width:1000px;
 	background-image:url(../images/background.png);
 	background-repeat: no-repeat;
@@ -41,26 +43,34 @@ body {
 	box-shadow: 0px 0px 5px 5px #F90;
 
 }
-img {display:block;
+img {
+	margin:0;
+	padding:0;
+	display:block;
 
-
+}
 #geo {
 	margin:5px 0 0 30px;
+	padding:0;
 }
 
 #geo-form{
 	margin: 0 0 0 30px;
+	padding:0;
 	width:300px;
 		
 }
 
 #adr{
 	width:150px;
+	padding:0;
 	
 }
 
 #adr1{
 	width:70px;
+	margin:0;
+	padding:0;
 		
 }
 
@@ -73,6 +83,7 @@ div {
 
 figure {
 	margin:0 auto;
+	padding:0;
 	display:block;
 }
 
@@ -80,10 +91,12 @@ figure {
 header{
 	width:1000px;
 	margin: 0 auto;
-	text-align:center;
+	padding:0;
 }
 
 .museums {
+	margin:0;
+	padding:0;
 
 		
 }
