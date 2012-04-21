@@ -28,7 +28,7 @@ include 'includes/theme-top.php';
 
 ?>
 
-<div>
+<div class = "form1">
 <form id="geo-form">
 	<label for="adr">Address</label>
 	<input id="adr">
