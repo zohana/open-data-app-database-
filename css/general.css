@@ -24,9 +24,8 @@ html{
 
 body{
 	margin:0 auto;
-	
 	width:1000px;
-	
+	display:block;
 	
 	
 	background-image:url(../images/background.png);
