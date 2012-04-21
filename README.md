@@ -3,6 +3,8 @@
 # Open data App
 Data-base to find the museums around Ottawa.
 
+#Version
+1.0.0
 
 #Author Info: 
 Priyanka Gite. Web developer and designer.
