@@ -29,7 +29,7 @@
     
 </head>
 <body>
-<div class="wrapper">
+<!--<div class="wrapper">-->
 <header><h1>Ottawa Museums</h1>
 <figure>
 	<img src="/images/building.png">
