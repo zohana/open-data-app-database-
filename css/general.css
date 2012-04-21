@@ -42,6 +42,9 @@ body{
 
 }
 
+header {
+	width:1000px;
+}
 #geo{
 	margin:5px 0 0 30px;
 }
