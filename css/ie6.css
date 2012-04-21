@@ -31,7 +31,7 @@ body{
 	
 }
 
-#geo{
+/*#geo{
 	margin:5px 0 0 30px;
 }
 
@@ -87,7 +87,7 @@ figure{
 	
 }
 
-h1{
+/*h1{
 	width:40%;
 	margin:0 0 0 40px;
 	padding:0px;
@@ -97,9 +97,9 @@ h1{
 	color:#039;
 	
 	text-align:center;
-}
+}*/
 
-.museums{
+/*.museums{
 	margin:10px 20px 0 0;
 	height:410px;
 	width:380px;
@@ -107,7 +107,6 @@ h1{
 	
 	float: right;
 	display: inline;
-	/*background-color:#fff;*/
 	
 	box-shadow: 0px 0px 5px 5px #999;
 	
@@ -115,7 +114,7 @@ h1{
 	
 	list-style-type: none;
 }
-
+*/
 
 .distance a{
 	padding:10px 0 10px 0;
@@ -142,7 +141,7 @@ h1{
 	
 	background-color: rgba(153,102,153,.3);
 }
-
+*/
 
 /*.museums a, .museums a:link, .museums a:visited {
     border: 1px solid #FFFFFF;
