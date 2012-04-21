@@ -345,20 +345,9 @@ dl{
 	-moz-box-shadow: 0px 0px 5px 5px #999;
 	
 	overflow-y:scroll;
-	position: absolute;
 	
-	/*float:right;
 	
-	bottom: 0px;
-	margin: 430px 0px 0px 100px;
-	top: 35px;
-	width: 700px;
-	height:380px;
-	
-	box-shadow: 0px 0px 5px 5px #999;
-	-webkit-box-shadow: 0px 0px 5px 5px #999;
-    -moz-box-shadow: 0px 0px 5px 5px #999;
-	*/
+
 	
 }
 
