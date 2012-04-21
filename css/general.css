@@ -28,7 +28,7 @@ body{
 	width:1000px;
 	height:800px;
 	
-	/*padding:1%;*/
+	
 	background-image:url(../images/background.png);
 	 background-repeat: no-repeat;
 	
@@ -90,7 +90,7 @@ figure{
 	
 	width: 530px;
 	height:430px;
-	bottom: 0px;
+	
 	
 	
 	
@@ -118,7 +118,7 @@ h1{
 	width:380px;
 	padding: 10px;
 	
-	float: right;
+	
 	
 	/*background-color:#fff;*/
 	
@@ -157,17 +157,6 @@ h1{
 }
 
 
-/*.museums a, .museums a:link, .museums a:visited {
-    border: 1px solid #FFFFFF;
-    border-radius: 8px 8px 8px 8px;
-    color: #38452E;
-    display: inline;
-    margin: 0;
-    overflow: hidden;
-   padding: 0.4em .8em 0.4em 4.8em;
-   text-decoration: none;
-    text-shadow: 1px 1px 1px #FFFFFF;
-}*/
 
  .museums li:hover{
 	background-color:rgba(0,51,255,.3);
@@ -183,7 +172,7 @@ h1{
 
 
 .museums li meter {
-	display: inline-block;
+	
 	
 	height: 0;
 	margin: 0;
