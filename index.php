@@ -10,6 +10,10 @@
 *@version 1.0.0
 <?php */?>
 
+<!--[if lte IE 7]>
+	<link href="css/ie6.css" rel="stylesheet">
+	<![endif]-->
+
 	<a class="sin1" href = "/admin/sign-in.php">Admin</a>
 
 <?php
