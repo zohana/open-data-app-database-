@@ -24,8 +24,13 @@ body {
 	margin:0 auto;
 	width:1000px;
 	
+}
+.wrapper {
 	
-	
+	margin:0 auto;
+	width:1000px;
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
 	
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -37,7 +42,7 @@ body {
 
 }
 img {display:block;
-}
+
 
 #geo {
 	margin:5px 0 0 30px;
