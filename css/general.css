@@ -68,7 +68,10 @@ div{
 	
 }
 
-
+figure {
+	margin:0 auto;
+	display:block;
+}
 
 
 header{
