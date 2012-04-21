@@ -31,7 +31,7 @@ body {
 	margin:0 auto;
 	padding:0;
 	width:100px;
-	background-image:url(../images/background.png);
+	background:url(../images/background.png);
 	background-repeat: no-repeat;
 	
 	-webkit-border-radius: 15px;
@@ -459,7 +459,6 @@ dl{
 }
 
 
-/*---------------------------------------------------*/
 .signin{
 	margin: 40px 0 0 280px;
 	padding:50px;
@@ -473,25 +472,3 @@ dl{
 	
 }
 
-
-/*----------------------------------------------------*/
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
- 
-.clearfix {
-	display: inline-block;
-}
- 
-html[xmlns] .clearfix {
-	display: block;
-}
- 
-* html .clearfix {
-	height: 1%;
-}
