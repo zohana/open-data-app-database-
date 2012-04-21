@@ -22,10 +22,10 @@ html{
 	background:#0F3;
 }
 
-body{
+body {
 	margin:0 auto;
 	width:1000px;
-	display:block;
+	position:relative;
 	
 	
 	background-image:url(../images/background.png);
@@ -42,7 +42,7 @@ body{
 }
 
 
-#geo{
+#geo {
 	margin:5px 0 0 30px;
 }
 
