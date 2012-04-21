@@ -88,7 +88,7 @@ figure{
 	height:430px;
 	bottom: 0px;
 	
-	position: absolute;
+	/*position: absolute;*/
 	
 	box-shadow: 0px 0px 5px 5px #999;
 	-webkit-box-shadow: 0px 0px 5px 5px #999;
@@ -216,7 +216,7 @@ h1{
 }
 
 .rater-level li{
- background:transparent;	
+ /*background:transparent;*/	
 }
 
 .rater-level a:hover,
@@ -352,7 +352,7 @@ dl{
 	-moz-box-shadow: 0px 0px 5px 5px #999;
 	
 	overflow-y:scroll;
-	position: absolute;
+	/*position: absolute;*/
 	
 	/*float:right;
 	
@@ -382,13 +382,7 @@ dl{
 	line-height:2;
 }
 
-/*{
-	color:#333;
-	list-style: none;
-	text-decoration:none;
-	
-}
-*/
+
 
 .edit-stuff{
 	margin:0 0 0 30px;
