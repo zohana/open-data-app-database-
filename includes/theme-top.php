@@ -22,9 +22,11 @@
 	<title><?php if (isset($title)) { echo $title . ' · '; } ?>Museums!</title>
     
 	<link href="/css/general.css" rel="stylesheet">
-	<[if lte IE 7]
-	<link href="/css/ie6.css" rel="stylesheet">
-	<![endif]
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/css/ie6.css" />
+	<![endif]-->
+    
+    
 </head>
 <body>
 <div class="wrapper">
