@@ -16,7 +16,7 @@
 /* CSS Document */
 
 html{
-	margin:0 auto;
+
 		
 	
 	background:#0F3;
@@ -41,10 +41,7 @@ body{
 
 }
 
-header {
-	margin:0 auto;
-	width:1000px;
-}
+
 #geo{
 	margin:5px 0 0 30px;
 }
