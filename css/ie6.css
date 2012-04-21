@@ -15,8 +15,6 @@
 
 
 
-@charset "utf-8";
-/* CSS Document */
 
 html{
 	margin:0;
@@ -25,7 +23,7 @@ html{
 	background:#fff;
 }
 
-body{
+* body{
 	margin:6em auto;
 	
 	width:1000px;
