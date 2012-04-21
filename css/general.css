@@ -16,20 +16,18 @@
 /* CSS Document */
 
 html{
-text-align:center;
-		
-	
-	background:#0F3;
+width:100%;
+background:#0F3;
 }
 
 body {
 	margin:0 auto;
 	width:1000px;
-	text-align:center;
+	
 	
 	
 	background-image:url(../images/background.png);
-	 background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
