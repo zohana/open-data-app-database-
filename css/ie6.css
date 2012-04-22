@@ -39,12 +39,13 @@ vertical-align: baseline;
 
 
 html{
-		
-	
+
 	background:#fff;
 }
 
 body{
+	margin:0px;
+	padding:20px;
 	background-color:#0CF;
 }
 
@@ -100,8 +101,8 @@ figure{
 	padding: 10px;
 	
 	float: right;
-	display: inline;
 	
+	/*display: inline;*/
 	
 	
 	
