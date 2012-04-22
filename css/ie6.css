@@ -48,5 +48,16 @@ body{
 	background-color:#0CF;
 }
 
+#map {
+	margin: 430px 0px 0px 20px;
+	top: 35px;
+	width: 530px;
+	height:430px;
+	bottom: 0px;
+	
+	position: absolute;
+	background-color:#63CF6B;
+}
+
 
 
