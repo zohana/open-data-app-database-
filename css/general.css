@@ -36,16 +36,12 @@ html{
 
 @media screen and (-webkit-min-device-pixel-ratio:0){
 
-	body{
+	.body{
 		margin-top:0px;
 		bottom:0px;
 		width:0px;
 		height:0px;
 		pading:0px;
-		
-		
-		
-		
 	}
 }
 
@@ -72,7 +68,7 @@ html{
 
 
 /*--------------------------for fire-fox----------------------------*/
-body{
+*body{
 	margin:6em auto;
 	
 	width:1000px;
