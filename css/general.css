@@ -166,7 +166,7 @@ h1{
 	
 }
 
-.museums a
+.museums a,
 .museums a:link,{
 	padding:10px;
     color: #66C; /*blue*/
