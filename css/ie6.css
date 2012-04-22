@@ -59,15 +59,17 @@ figure{
 .form1{
 	background-color:#C69;
 	height: 20px;
-	width:500px;
+	width:700px;
 }
 
 #geo{
 	/*margin:5px 0 0 30px;*/
 	margin:0;
 	padding:0;
-	float: right;
+	
 	position:absolute;
+	
+	float: right;
 }
 
 
@@ -95,12 +97,12 @@ figure{
 }
 
 .museums{
-	margin:10px 20px 0 0;
+	margin:10px 100px 0 0;
 	height:410px;
 	width:380px;
 	padding: 10px;
 	
-	float: right;
+	/*float: right;*/
 	
 	/*display: inline;*/
 	
