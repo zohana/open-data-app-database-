@@ -136,6 +136,17 @@ figure{
 	list-style-type: none;
 }
 
+.museums li {
+	cursor: pointer;
+}
+
+.museums > li {
+	margin-bottom:10px;
+	
+	background-color:#09F;	
+}
+
+
 .admin-box{
 	
 	margin:30px 0px 0 250px;
