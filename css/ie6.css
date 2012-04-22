@@ -135,13 +135,15 @@ figure{
 
 .admin-box{
 	
+	margin:0p;
+	padding:0px;
 	
 	width:500px;
 	height:380px;
 	
 	
 	overflow-y:scroll;
-	position: absolute;
+	
 	float:left;
 	
 	background-color:#0CC;
