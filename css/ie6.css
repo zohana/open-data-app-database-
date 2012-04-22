@@ -41,14 +41,13 @@ vertical-align: baseline;
 html{
 	padding:0 30px;
 	
-	background-image:url(../images/background.png);
-	 
+	
 }
 
 body{
 	
 	
-	background-image: none;
+	background-image: url(../images/background.png);
 	margin:0px 0 0 150px;
 	padding:0 0 0 20px;
 	
