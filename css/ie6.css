@@ -54,6 +54,27 @@ figure{
 	padding:0;
 }
 
+#geo{
+	margin:5px 0 0 30px;
+}
+
+#geo-form{
+	margin: 0 0 0 30px;
+	width:300px;
+	display: inline-block;	
+}
+
+#adr{
+	width:150px;
+	display: inline-block;	
+}
+
+#adr1{
+	width:70px;
+	display: inline-block;	
+}
+
+
 #map {
 	margin:340px 0 0 0;
 	
