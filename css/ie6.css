@@ -49,8 +49,8 @@ body{
 }
 
 #map {
-	margin: 430px 0px 0px 20px;
-	top: 35px;
+	margin:0;
+	
 	width: 530px;
 	height:430px;
 	bottom: 0px;
