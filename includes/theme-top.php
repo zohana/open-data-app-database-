@@ -23,7 +23,7 @@
     
 	<link href="/css/general.css" rel="stylesheet">
 	<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="/css/ie6.css" />
+	<link rel="stylesheet" type="text/css" href="/css/ie6.css">
 	<![endif]-->
     
     
