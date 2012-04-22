@@ -135,7 +135,7 @@ figure{
 
 .admin-box{
 	
-	margin:330px 0px 0 0;
+	margin:530px 0px 0 0;
 	padding:0px;
 	
 	width:500px;
@@ -145,7 +145,7 @@ figure{
 	overflow-y:scroll;
 	
 	position:relative;
-	float:left;
+	/*float:left;*/
 	
 	background-color:#0CC;
 }
