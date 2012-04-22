@@ -81,7 +81,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
          <button type="submit">Add</button>
     </form>
    </div>
- <a class="sin" href = "..admin/index.php">Admin Page</a>         
+ <a class="sin" href = "../admin/index.php">Admin Page</a>         
 <?php
 
 include '../includes/theme-bottom.php';
