@@ -11,9 +11,10 @@
 <?php */?>
 
 <!--for validation we need php,as to chk if ryt data is inputted inside the text field-->
+
+<?php include '../includes/theme-top.php';?>
+
 <?php
-
-
 require_once '../includes/db.php';
 $errors = array();
 
@@ -56,12 +57,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 
-<!DOCTYPE HTML>
+<!--<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Add to the museum list</title>
-</head>
+</head>-->
 <body>
       
     <form method= "post" action="add.php">
@@ -80,6 +81,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
          <button type="submit">Add</button>
     </form>
          
+<?php
 
-</body>
-</html>
+include '../includes/theme-bottom.php';
+
+?>
