@@ -44,8 +44,12 @@ html{
 }
 
 body{
+	background-image: none;
 	margin:0px 0 0 50px;
 	padding:0 0 0 20px;
+	
+	border-radius: 15px;
+	border-color:#FF9900;
 	
 }
 
