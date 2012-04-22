@@ -143,6 +143,7 @@ figure{
 	
 	overflow-y:scroll;
 	position: absolute;
+	float:left;
 	
 	background-color:#0CC;
 }
