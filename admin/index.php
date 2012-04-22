@@ -37,7 +37,7 @@ include '../includes/theme-top.php';
 
 <div class="admin-box">
 
-	<a id="over1" href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
+	<a id="over1" href ="add.php?id=<?php echo $museums['id'];?>">Add the name of Museum to the List.</a>
       <ul class="ul1">
         
             <?php foreach ($results as $museums) :?> 

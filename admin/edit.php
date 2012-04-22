@@ -99,7 +99,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         </form>
      </div>
           
-	<a class="sin" href = "../index.php">Home</a>  
+	<a class="sin" href = "/admin/index.php">Admin Page</a>     
 
 <?php
 include '../includes/theme-bottom.php';
