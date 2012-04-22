@@ -42,6 +42,12 @@ body{
 	
 }
 
+.wrapper{
+	background-repeat: no-repeat;
+	width:1000px;
+	height:800px;
+}
+
 #geo{
 	margin:5px 0 0 30px;
 }
