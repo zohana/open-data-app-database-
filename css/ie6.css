@@ -165,6 +165,49 @@ figure{
 	line-height:2;
 }
 	
+.rater {
+	margin: 0;
+	padding: 0;
+	
+	display: inline-block;
+	/*vertical-align: middle;*/
 
+	list-style-type: none;
+	line-height: 1;
+}
+
+.rater-level {
+	float: left;
+    /*background-color:#FFF;*/
+	color: #efecd2;
+}
+
+.rater-level a
+.rater-level a:link
+.rater-level a:visited {
+	color: #efecd2;
+	/*color:#3F0;*/
+	text-decoration: none
+}
+
+.rater-level li{
+ 	background:transparent;	
+}
+
+.rater-level a:hover,
+.rater-level a:focus,
+.rater-level a:active,
+.is-rated,
+.is-rated a,
+.is-rated a:link,
+.is-rated a:visited,
+.is-rated a:hover,
+.is-rated a:focus,
+.is-rated a:active,
+.is-rated-hover a,
+.is-rated-hover a:link,
+.is-rated-hover a:visited {
+	color: #ffe91f;
+}
 
 
