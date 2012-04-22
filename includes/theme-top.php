@@ -31,7 +31,7 @@
 <body>
 <!--<div class="wrapper">-->
 <header><h1>Ottawa Museums</h1>
-<!--<figure>
+<figure>
 	<img src="/images/building.png">
-</figure>-->
+</figure>
 </header>
