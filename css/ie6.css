@@ -51,6 +51,7 @@ body{
 
 figure{
 	margin-top:0px;
+	margin-left: 30px;
 	padding:0;
 }
 
@@ -59,7 +60,9 @@ figure{
 }
 
 #geo{
-	margin:5px 0 0 30px;
+	/*margin:5px 0 0 30px;*/
+	margin:0;
+	padding:0;
 }
 
 #geo-form{
