@@ -91,7 +91,7 @@ figure{
 	bottom: 0px;
 	
 	position: absolute;
-	background-color:#63CF6B;
+	
 }
 
 .museums{
@@ -104,7 +104,7 @@ figure{
 	
 	/*display: inline;*/
 	
-	
+	background-color:#63CF6B;
 	
 	overflow-y:scroll;
 	
