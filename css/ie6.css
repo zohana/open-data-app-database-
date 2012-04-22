@@ -50,8 +50,7 @@ body{
 	margin:0px 0 0 50px;
 	padding:0 0 0 20px;
 	
-	border: thick 3px;
-	border-color:#FF9900;
+	border: 3px #003333 thick;
 	
 }
 
@@ -64,7 +63,7 @@ h1{
 	font-size: 50px;
 	color:#039;
 	
-	background-color: #09C;
+	
 	
 	text-align:center;
 }
