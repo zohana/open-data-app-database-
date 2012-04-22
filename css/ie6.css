@@ -133,27 +133,5 @@ figure{
 	list-style-type: none;
 }
 
-.museums li {
-	cursor: pointer;
-}
-
-.museums > li {
-	margin-bottom:10px;
-	
-	background-color: #0CC;
-}
-
- .museums li:hover{
-	background-color:#FF3;
-	
-}
-
-.museums a
-.museums a:link,{
-	padding:10px;
-    color: #66C; /*blue*/
-	line-height:50;
-}
-
 
 
