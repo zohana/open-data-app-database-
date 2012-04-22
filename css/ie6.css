@@ -145,7 +145,17 @@ figure{
 	/*background-color:rgba(255,255,255,.3);*/	
 }
 
+ .museums li:hover{
+	background-color:#FF3;
+	
+}
 
+.museums a
+.museums a:link,{
+	padding:10px;
+    color: #66C; /*blue*/
+	line-height:50;
+}
 
 
 
