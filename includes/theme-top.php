@@ -34,7 +34,6 @@
 <figure>
 	<img src="/images/building.png">
 </figure>
-<class = "wrapper">
-     <img src="../images/background.png">
-</class>
+
+
 </header>
