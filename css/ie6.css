@@ -126,12 +126,25 @@ figure{
 	
 	/*display: inline;*/
 	
-	background-color:#036;
+	
 	
 	overflow-y:scroll;
 	
 	list-style-type: none;
 }
+
+.museums li {
+	cursor: pointer;
+}
+
+.museums > li {
+	margin-bottom:10px;
+	
+	background-color: #0CC;
+	
+	/*background-color:rgba(255,255,255,.3);*/	
+}
+
 
 
 
