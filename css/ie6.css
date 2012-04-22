@@ -146,6 +146,31 @@ figure{
 	background-color:#09F;	
 }
 
+ .museums li:hover{
+	background-color:#CF0;
+	
+}
+
+.museums a,
+.museums a:link,{
+	padding:10px;
+    color: #66C; /*blue*/
+	line-height:50;
+}
+
+
+.museums li meter {
+	display: inline-block;
+	
+	height: 0;
+	margin: 0;
+	padding: 0;
+	width: 0;
+
+	/*-webkit-appearance: none;*/
+	appearance: none;
+}
+
 
 .admin-box{
 	
