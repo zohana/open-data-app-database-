@@ -10,6 +10,7 @@
 *@version 1.0.0
 <?php */?>
 
+<?php include '../includes/theme-top.php';?>
 
 <?php
 
@@ -78,30 +79,28 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Edit Museum List</title>
-</head>
-<body>
-      
-    <form method= "post" action="edit.php?id=<?php echo $id; ?>">
-      <div>
-         <label for="name"> Name<?php if (isset($errors['name'])):?> <strong>is required</strong><?php endif;?></label>
-         <input id = "name" name="name" value="<?php echo $name; ?>"required>
-      </div>
-      <div>
-         <label for="longitude">Longitude<?php if (isset($errors['longitude'])):?> <strong>is required</strong><?php endif;?></label>
-         <input id = "longitude" name="longitude" value="<?php echo $longitude; ?>" required>
-      </div>
-       <div>
-         <label for="latitude">Latitude<?php if (isset($errors['latitude'])):?> <strong>is required</strong><?php endif;?></label>
-         <input id = "latitude" name="latitude" value="<?php echo $latitude; ?>" required>
-      </div>
-         <button type="submit">Edit</button>
-    </form>
-         
 
-</body>
-</html>
+<body>
+     <div class = "signin">  
+        <form method= "post" action="edit.php?id=<?php echo $id; ?>">
+          <div>
+             <label for="name"> Name<?php if (isset($errors['name'])):?> <strong>is required</strong><?php endif;?></label>
+             <input id = "name" name="name" value="<?php echo $name; ?>"required>
+          </div>
+          <div>
+             <label for="longitude">Longitude<?php if (isset($errors['longitude'])):?> <strong>is required</strong><?php endif;?></label>
+             <input id = "longitude" name="longitude" value="<?php echo $longitude; ?>" required>
+          </div>
+           <div>
+             <label for="latitude">Latitude<?php if (isset($errors['latitude'])):?> <strong>is required</strong><?php endif;?></label>
+             <input id = "latitude" name="latitude" value="<?php echo $latitude; ?>" required>
+          </div>
+             <button type="submit">Edit</button>
+        </form>
+     </div>
+          
+	<a class="sin" href = "../index.php">Home</a>  
+
+<?php
+include '../includes/theme-bottom.php';
+?>

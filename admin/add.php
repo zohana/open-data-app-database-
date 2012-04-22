@@ -57,31 +57,28 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 
-<!--<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Add to the museum list</title>
-</head>-->
+
 <body>
     <div class = "signin">  
-    <form method= "post" action="add.php">
-      <div>
-         <label for="name"> Name<?php if (isset($errors['name'])):?> <strong>is required</strong><?php endif;?></label>
-         <input id = "name" name="name" value="<?php echo $name; ?>"required>
-      </div>
-      <div>
-         <label for="longitude">Longitude<?php if (isset($errors['longitude'])):?> <strong>is required</strong><?php endif;?></label>
-         <input id = "longitude" name="longitude" value="<?php echo $longitude; ?>" required>
-      </div>
-       <div>
-         <label for="latitude">latitude<?php if (isset($errors['latitude'])):?> <strong>is required</strong><?php endif;?></label>
-         <input id = "latitude" name="latitude" value="<?php echo $latitude; ?>" required>
-      </div>
-         <button type="submit">Add</button>
-    </form>
+        <form method= "post" action="add.php">
+          <div>
+             <label for="name"> Name<?php if (isset($errors['name'])):?> <strong>is required</strong><?php endif;?></label>
+             <input id = "name" name="name" value="<?php echo $name; ?>"required>
+          </div>
+          <div>
+             <label for="longitude">Longitude<?php if (isset($errors['longitude'])):?> <strong>is required</strong><?php endif;?></label>
+             <input id = "longitude" name="longitude" value="<?php echo $longitude; ?>" required>
+          </div>
+           <div>
+             <label for="latitude">latitude<?php if (isset($errors['latitude'])):?> <strong>is required</strong><?php endif;?></label>
+             <input id = "latitude" name="latitude" value="<?php echo $latitude; ?>" required>
+          </div>
+             <button type="submit">Add</button>
+        </form>
    </div>
+ 
  <a class="sin" href = "/admin/index.php">Admin Page</a>         
+
 <?php
 
 include '../includes/theme-bottom.php';

@@ -36,20 +36,22 @@ include '../includes/theme-top.php';
 	<a class="sin" href = "sign-out.php">Sign Out</a>
 
 <div class="admin-box">
-  <ul class="ul1">
-    
-        <?php foreach ($results as $museums) :?> 
-		<a id="over1" href ="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
-        &bull;
-        <div class="edit-stuff">
-           <li> <a id="over1" href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
-            <a id="over1" href ="edit.php?id=<?php echo $museums['id'];?>">Edit</a>
-            <a id="over1" href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
-            </li>
-       	</div>
+
+	<a id="over1" href ="add.php?id=<?php echo $museums['id'];?>">Add</a>
+      <ul class="ul1">
+        
+            <?php foreach ($results as $museums) :?> 
+            <a id="over1" href ="../single.php?id=<?php echo $museums['id'];?>"><?php echo $museums['name'] ; ?></a> 
+            &bull;
+            <div class="edit-stuff">
+               <li> <a id="over1" href ="delete.php?id=<?php echo $museums['id'];?>">Delete</a>
+                <a id="over1" href ="edit.php?id=<?php echo $museums['id'];?>">Edit</a>
+                
+                </li>
+            </div>
         
         <?php endforeach; ?>
-    </ul>
+   	 </ul>
 </div>
           
 <?php
