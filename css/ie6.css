@@ -144,7 +144,7 @@ figure{
 	
 	overflow-y:scroll;
 	
-	position:absolute;
+	position:relative;
 	float:left;
 	
 	background-color:#0CC;
