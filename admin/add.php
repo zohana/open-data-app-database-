@@ -64,7 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <title>Add to the museum list</title>
 </head>-->
 <body>
-      
+    <div class = "signin">  
     <form method= "post" action="add.php">
       <div>
          <label for="name"> Name<?php if (isset($errors['name'])):?> <strong>is required</strong><?php endif;?></label>
@@ -80,7 +80,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
       </div>
          <button type="submit">Add</button>
     </form>
-         
+   </div>
+ <a class="sin" href = "..admin/index.php">Admin Page</a>         
 <?php
 
 include '../includes/theme-bottom.php';
