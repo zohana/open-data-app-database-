@@ -48,6 +48,12 @@ body{
 	background-color:#0CF;
 }
 
+
+figure{
+	margin-top:-60px;
+	padding:0;
+}
+
 #map {
 	margin:340px 0 0 0;
 	
