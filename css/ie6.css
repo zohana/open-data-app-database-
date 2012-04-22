@@ -82,7 +82,7 @@ figure{
 .form1{
 	background-color:#C69;
 	height: 50px;
-	width:700px;
+	width:100%;
 }
 
 #geo{
@@ -120,7 +120,7 @@ figure{
 }
 
 .museums{
-	margin:30px 250px 0 0;
+	margin:25px 250px 0 0;
 	height:430px;
 	width:380px;
 	padding: 0px;
