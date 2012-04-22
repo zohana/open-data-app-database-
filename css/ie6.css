@@ -57,12 +57,14 @@ body{
 
 h1{
 	
-	margin:3px 0 0 40px;
+	margin:0px 0 0 40px;
 	padding:0px;
 	
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 50px;
 	color:#039;
+	
+	background-color: #09C;
 	
 	text-align:center;
 }
