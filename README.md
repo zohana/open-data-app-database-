@@ -25,7 +25,7 @@ Versioned using Semantic Versioning, <http://semver.org/>
 
  Github link: <https://github.com/zohana/open-data-app-database->
 
- phpfog link:<http://priya.phpfogapp.com/index.php>
+ phpfog link:<http://ottawa-museums.phpfogapp.com/index.php>
 
 ## Installation Process
 The application do not require any installation.
